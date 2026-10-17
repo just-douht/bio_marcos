@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #222;
+    line-height: 1.6;
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 30px 20px;
+}
+
+h1 {
+    color: #1668c4;
+    font-size: 34px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.subtitulo {
+    text-align: center;
+    font-style: italic;
+    color: #666;
+    margin-top: 0;
+}
+
+/* Foto de perfil redonda y centrada */
+img {
+    display: block;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 25px auto;
+}
+
+h2 {
+    color: #1668c4;
+    font-size: 22px;
+    margin-top: 35px;
+    padding-bottom: 4px;
+    border-bottom: 3px solid #ff8000;
+}
+
+ul {
+    list-style-type: square;
+}
+
+li {
+    margin-bottom: 6px;
+}
+
+strong {
+    color: #1668c4;
+}
+
+audio {
+    display: block;
+    width: 100%;
+}
+
+/* Tabla de cronología */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+/* Oculta la tabla vacía que está de más en el HTML */
+table:empty {
+    display: none;
+}
+
+th {
+    background: #1668c4;
+    color: #fff;
+    padding: 10px;
+    text-align: left;
+}
+
+td {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+tr:nth-child(even) td {
+    background: #f2f7fd;
+}
+
+a {
+    color: #1668c4;
+}
+
+a:hover {
+    color: #0f4f94;
+}
